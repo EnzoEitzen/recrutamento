@@ -1,7 +1,7 @@
 import { Title } from "@mantine/core";
 import { TodoForm } from "@/components/todo/TodoForm";
 import { TodoList } from "@/components/todo/TodoList";
-import { useTodo } from "@/lib/frontend/hooks/useTodo"; // <- point this at your existing hook
+import { useTodo } from "@/lib/frontend/hooks/useTodo";
 
 export default function TodoPage() {
   const { todos, addTodo, updateTodo, deleteTodo } = useTodo();
